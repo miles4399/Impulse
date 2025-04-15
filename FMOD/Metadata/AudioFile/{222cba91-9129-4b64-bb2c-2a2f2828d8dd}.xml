@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{222cba91-9129-4b64-bb2c-2a2f2828d8dd}">
+		<property name="assetPath">
+			<value>SFX/UI/UIMisc-SCIFI_Designed Scifi Ui Beeps Granular 01_LM_PERSONAL_DSGN_Lewis MacDonald 4.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.1913749999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d91105a2-9cb4-4fc5-bedc-52924cdd1adb}</destination>
+		</relationship>
+	</object>
+</objects>

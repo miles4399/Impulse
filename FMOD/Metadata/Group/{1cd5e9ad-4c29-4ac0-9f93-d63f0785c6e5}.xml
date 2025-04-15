@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{1cd5e9ad-4c29-4ac0-9f93-d63f0785c6e5}">
+		<property name="name">
+			<value>InGameSFX</value>
+		</property>
+		<relationship name="masters">
+			<destination>{9f0caa81-e596-4eb0-aabe-d2b2e522fcc7}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{962553a5-fd0f-4030-aa0e-a05228d227fa}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{ee58bff8-c3ed-4ca7-ac21-f70479bf8939}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{24d931b0-36c1-46c6-9553-1a67afc2a599}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{962553a5-fd0f-4030-aa0e-a05228d227fa}">
+		<relationship name="effects">
+			<destination>{9b04b3aa-cfc7-4417-b2f8-9f59135a386d}</destination>
+			<destination>{48ba25e5-dd8f-4e6c-8fc2-cec5eb5b9f98}</destination>
+			<destination>{a2cac507-74e6-47f0-95d4-a0e510cf633b}</destination>
+			<destination>{d6a5f8ae-b1c1-4942-b670-5484a36d0a9d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{ee58bff8-c3ed-4ca7-ac21-f70479bf8939}" />
+	<object class="MultibandEqEffect" id="{9b04b3aa-cfc7-4417-b2f8-9f59135a386d}">
+		<property name="frequencyA">
+			<value>21999.9902</value>
+		</property>
+		<property name="qualityA">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{48ba25e5-dd8f-4e6c-8fc2-cec5eb5b9f98}" />
+	<object class="MixerSend" id="{a2cac507-74e6-47f0-95d4-a0e510cf633b}">
+		<property name="level">
+			<value>0</value>
+		</property>
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{9369d5aa-0ad2-4007-9187-92e8635ed49b}</destination>
+		</relationship>
+	</object>
+	<object class="MixerSend" id="{d6a5f8ae-b1c1-4942-b670-5484a36d0a9d}">
+		<property name="level">
+			<value>0</value>
+		</property>
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{d785bf46-6ca0-4d6c-862f-e4d6dfee3c73}</destination>
+		</relationship>
+	</object>
+</objects>

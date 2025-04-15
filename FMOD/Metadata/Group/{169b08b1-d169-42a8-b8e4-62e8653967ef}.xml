@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{169b08b1-d169-42a8-b8e4-62e8653967ef}">
+		<property name="name">
+			<value>Jump</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{43c4e34e-2a19-48bd-980e-ae923e8998cd}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{a4ade354-fd76-4b6f-9313-bc3f55b3a638}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{e1ac5fdf-f29b-47b5-87fd-1ecc3f78b87d}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{c91d4529-1bb6-46cd-9d97-07b58dc2091c}</destination>
+		</relationship>
+	</object>
+	<object class="SidechainModulator" id="{43c4e34e-2a19-48bd-980e-ae923e8998cd}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>62.5</value>
+		</property>
+		<property name="attackTime">
+			<value>29</value>
+		</property>
+		<property name="releaseTime">
+			<value>26</value>
+		</property>
+		<property name="minimumThreshold">
+			<value>-58</value>
+		</property>
+		<property name="maximumThreshold">
+			<value>-8</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{f732e410-3830-4fae-a3e6-2d93c6ad4487}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{a4ade354-fd76-4b6f-9313-bc3f55b3a638}">
+		<relationship name="effects">
+			<destination>{56a2cd77-71f9-447b-964a-aa79082f0235}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{e1ac5fdf-f29b-47b5-87fd-1ecc3f78b87d}" />
+	<object class="MixerBusFader" id="{56a2cd77-71f9-447b-964a-aa79082f0235}" />
+</objects>

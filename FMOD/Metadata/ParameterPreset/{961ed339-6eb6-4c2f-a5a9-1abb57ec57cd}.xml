@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{961ed339-6eb6-4c2f-a5a9-1abb57ec57cd}">
+		<property name="name">
+			<value>BossPercentage</value>
+		</property>
+		<relationship name="folder">
+			<destination>{0bb9e9e7-85e3-4e34-9a99-f97f7a2f7129}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d65ec495-0d70-45f2-ba30-02310fa7e2f8}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d65ec495-0d70-45f2-ba30-02310fa7e2f8}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

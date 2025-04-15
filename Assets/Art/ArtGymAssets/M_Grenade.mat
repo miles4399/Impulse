@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Grenade
+  m_Shader: {fileID: -6465566751694194690, guid: 3787f5f6abcedd3448f489baad4ff62d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AORoughMetalEmissive:
+        m_Texture: {fileID: 2800000, guid: ccd21ddf356d16a49bf6be4eed25f3fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColorOpacity:
+        m_Texture: {fileID: 2800000, guid: 9d8a49b8283dd4d45b7d9b05532c5222, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalOGL:
+        m_Texture: {fileID: 2800000, guid: 7a22d4ad5b0fb024baf0c6b8effd0c32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_5605E875: 0
+    m_Colors:
+    - _EmissiveColor: {r: 27.40689, g: 20.153797, b: 20.038057, a: 0}
+  m_BuildTextureStacks: []

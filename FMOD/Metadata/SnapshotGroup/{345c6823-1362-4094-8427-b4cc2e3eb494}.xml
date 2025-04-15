@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="SnapshotGroup" id="{345c6823-1362-4094-8427-b4cc2e3eb494}">
+		<property name="name">
+			<value>PauseMenu</value>
+		</property>
+		<relationship name="folder">
+			<destination>{afcb2a04-697e-4728-958f-e3759e535fef}</destination>
+		</relationship>
+		<relationship name="items">
+			<destination>{3c9ec23e-fe58-4c71-93b0-607f81c6d000}</destination>
+			<destination>{26c4efd7-a96c-40bf-b761-c022ef376215}</destination>
+		</relationship>
+	</object>
+</objects>
